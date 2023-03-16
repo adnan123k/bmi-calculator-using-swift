@@ -1,5 +1,5 @@
 #  BMI Calculator
-ios native app to calculate Body Mass Index and tell you what you should do
+ios native app to calculate Body Mass Index and tell you what you should do.
 
 ## supported cases:
 * Underweight: BMI less than 18.5 kg/m^2
@@ -15,4 +15,10 @@ ios native app to calculate Body Mass Index and tell you what you should do
 * run it either on your physical device or on your emulator
 
 ## example of use:
+
+
+
+
+
+https://user-images.githubusercontent.com/55524560/225597721-089f884b-3c32-4811-b00b-eef69eb5701c.mov
 
