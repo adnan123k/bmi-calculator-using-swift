@@ -1,27 +1,18 @@
-
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 #  BMI Calculator
+ios native app to calculate Body Mass Index and tell you what you should do
 
-## Our Goal
+## supported cases:
+* Underweight: BMI less than 18.5 kg/m^2
+* Normal weight: BMI between 18.5 and 24.9 kg/m^2
+* Overweight: BMI between 25 and 29.9 kg/m^2
+* Obesity class I: BMI between 30 and 34.9 kg/m^2
+* Obesity class II: BMI between 35 and 39.9 kg/m^2
+* Obesity class III: BMI greater than or equal to 40 kg/m^2
 
-The goal of this tutorial is to learn more about Optionals, solidify your understanding of the MVC design pattern and to introduce the concept of Classes. We’ll compare objects created from classes with instances of Structs that we learnt about earlier. 
+## how to run it:
+* install xcode
+* open BMI Calculator.xcodeproj in xcode
+* run it either on your physical device or on your emulator
 
-## What you will create
+## example of use:
 
-By the end of the module, you will have made a Body Mass Index calculator. Based on the user’s weight and height it will calculate their body mass and give a piece of health advice depending on whether if they have eaten too many pies or if they need to eat more pies. 
-
-## What you will learn
-
-* How to create multi-screen apps with animated navigation.
-* Optional binding, optional chaining and the nil coalescing operator.
-* How to create classes and difference between classes and structs. 
-* Pass by value vs. pass by reference. 
-* Formatting Strings. 
-* Color literals.
-
-
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
