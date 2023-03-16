@@ -26,7 +26,14 @@ class ViewController: UIViewController {
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        (segue.destination as! ViewController2).bmi=String(format: "%.1f",weightslider.value/pow(heightslider.value,2 ))
+         if(heightslider.value==0 ){
+            (segue.destination as! ViewController2).bmi="0"
+            
+        }
+        else{
+            (segue.destination as! ViewController2).bmi=String(format: "%.1f",weightslider.value/pow(heightslider.value,2 ))
+            
+        }
     }
     @IBAction func slider1(_ sender: UISlider) {
         height.text = "\(((Float(sender.value)*100).rounded())/100.0)m"
